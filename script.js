@@ -51,7 +51,7 @@ function getQuote() {
     $("#text").text(randomQuote.quote);
   });
 
-  $(".quote-author").animate({ opacity: 0 }, 500, function () {
+  $(".quote-author").animate({ opacity: 0 }, 700, function () {
     $(this).animate({ opacity: 1 }, 500);
     $("#author").html(randomQuote.author);
   });
